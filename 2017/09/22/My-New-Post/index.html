@@ -376,6 +376,22 @@ var _hmt = _hmt || [];
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2017/09/22/My-New-Post/",
+  owner: 'qiuyongjuan',
+  repo: 'qiuyongjuan.github.io',
+  oauth: {
+    client_id: '27c89d10447c5ec81ff3',
+    client_secret: '2169e87f5b8dbb08bbe3dabb1eced5d9012354a3',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
